@@ -1,0 +1,8 @@
+[package]
+name = "first-application"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = {version = "0.13.1", features= ["debug", "tokio"] }
+tokio = {version = "1.32", features = ["fs", "rt"]}
